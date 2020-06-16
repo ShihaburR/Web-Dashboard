@@ -1,0 +1,42 @@
+{
+  "table": [
+    {"day":"20/02/2020",	"value":"841"},
+    {"day":"21/02/2020",	"value":"825"},
+    {"day":"22/02/2020",	"value":"838"},
+    {"day":"23/02/2020",	"value":"819"},
+    {"day":"24/02/2020",	"value":"824"},
+    {"day":"25/02/2020",	"value":"749"},
+    {"day":"27/02/2020",	"value":"669"},
+    {"day":"28/02/2020",	"value":"651"},
+    {"day":"29/02/2020",	"value":"575"},
+    {"day":"01/03/2020",	"value":"578"},
+    {"day":"02/03/2020",	"value":"523"},
+    {"day":"03/03/2020",	"value":"534"},
+    {"day":"04/03/2020",	"value":"531"},
+    {"day":"05/03/2020",	"value":"519"},
+    {"day":"06/03/2020",	"value":"431"},
+    {"day":"07/03/2020",	"value":"419"},
+    {"day":"08/03/2020",	"value":"469"},
+    {"day":"09/03/2020",	"value":"714"},
+    {"day":"10/03/2020",	"value":"560"},
+    {"day":"11/03/2020",	"value":"689"},
+    {"day":"12/03/2020",	"value":"770"},
+    {"day":"13/03/2020",	"value":"703"},
+    {"day":"14/03/2020",	"value":"574"},
+    {"day":"15/03/2020",  "value":"561"}
+  ],
+  "KPI":[
+    {
+      "text":"Number of positive mentions of MUS on social media in the first half of 2020",
+      "value":"40"
+    },
+    {
+      "text":"Number of positive mentions of MUS on social media in the first half of 2020",
+      "value":"40"
+    },
+    {
+      "text":"Number of positive mentions of MUS on social media in the first half of 2020",
+      "value":"40"
+    }
+  ]
+}
