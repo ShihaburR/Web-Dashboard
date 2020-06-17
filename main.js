@@ -23,7 +23,7 @@ function getGraph(data) {
 
   var charts = document.getElementById('chart').getContext('2d');
   //chart defaults
-  Chart.defaults.global.defaultFontFamily = 'Calibri';
+  Chart.defaults.global.defaultFontFamily = 'Lato';
   Chart.defaults.global.defaultFontSize = 13;
   Chart.defaults.global.defaultFontColour = '#777';
 
@@ -40,6 +40,7 @@ function getGraph(data) {
       }]
     },
     options: {
+      maintainAspectRatio: false,
         legend: {
             display: false
         },

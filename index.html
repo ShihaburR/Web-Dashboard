@@ -10,19 +10,60 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <script type="text/javascript" src="./main.js"></script>
   <header>
+    <h1>NUS Museum</h1>
     <nav>
-
       <ul class="nav_links">
-        <li><h1 href="#">MUS Museum</h1></li>
-        <li><a href="#">Status</a></li>
+        <li><a href="#">Dashboard</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
     </nav>
+    <a href="#"><button>Settings</button></a></li>
   </header>
   <div class="container">
-    <canvas id="chart" width ="400" height ="200"> </canvas>
-    <script type="text/javascript" src="./main.js"></script>
-  </div>
+    <div class="graph">
+      <canvas id="chart"></canvas>
+    </div>
+    <div class="KPI">
+      <div class="box">
+        <div class="percent">
+          <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="kpi-value"><h3>30</h3></div>
+        </div>
+        <div class="kpi-label">skill</div>
+      </div>
+
+    </div>
+    <div class="KPI">
+      <div class="box">
+        <div class="percent">
+          <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="kpi-value"><h3>20</h3></div>
+        </div>
+        <div class="kpi-label">skill</div>
+      </div>
+    </div>
+    <div class="KPI">
+      <div class="box">
+        <div class="percent">
+          <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="kpi-value">
+            <h3>90</h3>
+          </div>
+        </div>
+        <div class="kpi-label">skill</div>
+      </div>
+    </div>
 </body>
 </html>
