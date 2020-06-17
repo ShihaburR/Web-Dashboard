@@ -4,10 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--chart.js integration-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
   <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <nav>
+
+      <ul class="nav_links">
+        <li><h1 href="#">MUS Museum</h1></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Settings</a></li>
+    </nav>
+  </header>
   <div class="container">
     <canvas id="chart" width ="400" height ="200"> </canvas>
     <script type="text/javascript" src="./main.js"></script>
