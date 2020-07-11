@@ -5,7 +5,8 @@ fetch("./data.json")
   })
   .then(function(data){
       console.log(data);
-      return getGraph(data);
+      getGraph(data);
+      getKPI(data);
   })
   .catch(function (err){
       console.log(err);
@@ -54,5 +55,18 @@ function getGraph(data) {
 }
 
 function getKPI(data) {
+  let kpiJSON = [];
+  for(var i = 0; i < data.KPI.length; i++){
+    kpiJSON.push(data.KPI[i]);
+  }
+
+  document.querySelectorAll('h2').forEach((el,i) => {
+    el.innerHTML = kpiJSON[i]["value"];
+  });
+
+  document.querySelectorAll('.text').forEach((el, i) => {
+    el.innerHTML = kpiJSON[i]["text"];
+  });
+
 
 }
